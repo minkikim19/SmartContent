@@ -1,0 +1,46 @@
+#wrap{position: relative; overflow: hidden;} 
+
+
+/* header */
+header{height: 160px; background-color: #232823; }
+
+.header_inner{
+    width: 1260px; height: 100px; 
+    background-color: #232823; margin: 0 auto; position: relative;
+}
+
+.header_inner h1{position: absolute; left: 30px; top: 20px;}
+
+/* search warp */
+.search-wrap{width: 430px; margin: 0px auto; position: relative; padding-top: 25px;}
+.search-wrap input{width: inherit; height: 50px; border: 2px solid #232823; border-radius: 100px; padding: 5px 45px 5px 15px; box-sizing: border-box; 
+    /* font-weight: normal; */
+}
+::placeholder{opacity: .3;}
+
+
+/* gbn menu */
+.gnb-wrap{height: 60px; background-color: #dbe2f0;}
+
+
+.gnb-wrap ul{width: 1260px; margin: 0 auto; padding: 0 275px; box-sizing: border-box;}
+.gnb-wrap li{display: inline-block; float: left; margin: 0 5px;}
+
+.gnb-wrap li a{font-size: 22px; font-weight: 700; font-family: 'Roboto'; padding: 10px 20px; line-height: 40px; display: inline-block;}
+
+/* .gnb-wrap li a:hover, .gnb-wrap li a.active{text-decoration: none; 
+    background-color: #232823; 
+    color: #dbe2f0;} */
+
+.gnb-wrap li a:hover, .gnb-wrap li a.active{
+    border-bottom: 3PX solid #232823; padding-bottom: 3px; color: #232823; text-decoration: none;
+}
+
+
+/* icon search */
+.ico-search{text-indent: -9999999px; font-size: 0; width: 22px; height: 24px; background: red url(/img/ICO-search.png) no-repeat 0 0;
+position: absolute; top: 12px; right: 15px;}
+
+
+
+
